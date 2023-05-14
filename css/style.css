@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'devil-breeze-bold';
+    src: url('../fonts/devil-breeze-bold-webfont.woff2') format('woff2'),
+         url('../fonts/devil-breeze-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    background-color: black;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: 'devil-breeze-bold';
+    color: white;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'devil-breeze-bold';
+}
+
+.offcanvas-title {
+    font-family: 'devil-breeze-bold';
+}
+
+.left-section {
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.texto {
+    color: white;
+    margin: 25px;
+}
+
+.content-img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.right-section {
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.caja {
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+}
+
+.gridded-section {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: auto;
+    justify-content: space-around;
+}
+
+.box-top {
+    grid-column: 1/3;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.box {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-bottom {
+    grid-column: 1/3;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.section-a1 {
+    text-align: center;
+    display: flex;
+}
+
+.subtitle {
+    font-family: 'devil-breeze-bold';
+    color: white;
+}
+
+.texto {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-a1 {
+    text-align: center;
+}
+
+.texto-a1 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0px;
+}
+
+.flex-footer {
+    background-color: gray;
+    height: 70px;
+    flex-flow: wrap row;
+    display: flex;
+}
+
+footer div p {
+    display: none;
+}
+
+@media screen and (max-width: 590px) {
+
+    .content-img {
+        width: 250px;
+    }
+    .right-section {
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+        padding: 30px;
+        margin-bottom: 0;
+    }
+    .left-section {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        padding: 30px;
+        margin-top: 0;
+    }
+    footer div p {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: 'Lato', sans-serif;
+    }
+    .section-a1 {
+        flex-direction: column;
+    }
+    .gridded-section {
+        grid-template-columns: 100%;
+    }
+    .box-top {
+        grid-column: 1/2;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 40px;
+    }
+    
+    .box {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .box-bottom {
+        grid-column: 1/2;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .section-carrusel {
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+}
