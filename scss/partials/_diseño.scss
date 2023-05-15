@@ -10,3 +10,12 @@
 
 $fuente-principal: 'devil-breeze-bold';
 $fuente-secundaria: 'Lato', sans-serif;
+
+@mixin flex-dis {
+    display: flex;
+}
+
+@mixin align-center {
+    text-align: center;
+    align-items: center;
+}

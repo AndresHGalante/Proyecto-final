@@ -5,8 +5,8 @@
 }
 
 footer {
+    @include flex-dis;
     background-color: gray;
     height: 70px;
     flex-flow: wrap row;
-    display: flex;
 }

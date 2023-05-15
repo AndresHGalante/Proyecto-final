@@ -34,6 +34,7 @@ h2 p {
 }
 .left-section, .right-section {
   text-align: center;
+  align-items: center;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -53,13 +54,12 @@ h2 p {
 
 .right-section {
   justify-content: right;
-  align-items: center;
   margin-right: 10px;
 }
 
 .section-a1 {
-  text-align: center;
   display: flex;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -96,6 +96,19 @@ h2 p {
   grid-column: 1/3;
   margin-top: 15px;
   margin-bottom: 30px;
+}
+
+.caja {
+  height: 50px;
+  width: 50px;
+  margin: 6px;
+}
+
+footer {
+  display: flex;
+  background-color: gray;
+  height: 70px;
+  flex-flow: wrap row;
 }
 
 @media screen and (max-width: 590px) {
@@ -147,18 +160,6 @@ h2 p {
     padding-top: 300px;
     padding-bottom: 300px;
   }
-}
-.caja {
-  height: 50px;
-  width: 50px;
-  margin: 6px;
-}
-
-footer {
-  background-color: gray;
-  height: 70px;
-  flex-flow: wrap row;
-  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

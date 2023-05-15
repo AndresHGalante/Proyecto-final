@@ -1,6 +1,6 @@
 .section-a1 {
+    @include flex-dis;
     text-align: center;
-    display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
 }
