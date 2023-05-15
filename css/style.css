@@ -21,11 +21,11 @@ main {
   padding-top: 50px;
 }
 
-h1 {
+h2 {
   font-family: "devil-breeze-bold";
   color: white;
 }
-h1 p {
+h2 p {
   font-family: "Lato", sans-serif;
 }
 
@@ -98,6 +98,56 @@ h1 p {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 590px) {
+  .content-img {
+    width: 250px;
+  }
+  .right-section {
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    padding: 30px;
+    margin-bottom: 0;
+  }
+  .left-section, .right-section {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    padding: 30px;
+    margin-top: 0;
+  }
+  footer div p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Lato", sans-serif;
+  }
+  .section-a1 {
+    flex-direction: column;
+  }
+  .gridded-section {
+    grid-template-columns: 100%;
+  }
+  .box-top {
+    grid-column: 1/2;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+  }
+  .box {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .box-bottom {
+    grid-column: 1/2;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .section-carrusel {
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
+}
 .caja {
   height: 50px;
   width: 50px;

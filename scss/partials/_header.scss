@@ -1,5 +1,5 @@
 .navbar-brand {
-    font-family: 'devil-breeze-bold';
+    font-family: $fuente-principal;
     .offcanvas-title {
         @extend .navbar-brand;
     }

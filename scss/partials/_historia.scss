@@ -1,12 +1,12 @@
 .main-a1 {
     text-align: center;
     .subtitle {
-        font-family: 'devil-breeze-bold';
+        font-family: $fuente-principal;
         color: white;
     }
     .texto-a1 {
         color: white;
-        font-family: 'Lato', sans-serif;
+        font-family: $fuente-secundaria;
         margin-bottom: 0px;
     }
 }
