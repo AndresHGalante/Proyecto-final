@@ -1,0 +1,6 @@
+.navbar-brand {
+    font-family: 'devil-breeze-bold';
+    .offcanvas-title {
+        @extend .navbar-brand;
+    }
+}

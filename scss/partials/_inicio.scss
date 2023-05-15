@@ -1,0 +1,25 @@
+.left-section {
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.texto {
+    color: white;
+    margin: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.content-img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.right-section {
+    @extend .left-section;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10px
+}
